@@ -1,53 +1,74 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>My Portfolio</title>
+  <title>Arul Portfolio</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Arul  Portfolio</h1>
-  <section>
-    <h2>About Me</h2>
-    <p>Hi, I'm Arulmurugan, a web developer.</p>
-    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo praesentium accusantium nesciunt nostrum neque, fugiat, nemo est minima illo error, atque autem unde dicta animi cum omnis molestiae iusto explicabo.</p>
-  </section>
-  <section>
-    <h2>My Projects</h2>
-    <ul>
-      <li><a href="#">Project 1</a></li>
-      <a>Medical shop management system using visual basic and my sql </a>
+  <header>
+    <title>Arul Portfolio</title>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="about">
+      <h1>Hi, I'm Arulmurugan </h1>
       <br>
-      <a>view projects</a>
-      <li><a href="#">Project 2</a></li>
-      <a>Current stock monitoring system with expiry alerts using php and my sql </a>
-      <br>
-      <a>view projects</a>
-      <li><a href="#">Project 3</a></li>
-      <a>sports shop management system using php and my sql </a>
-    <br>
-    <a>view projects</a>
+      <p>Web Developer & Designer</p>
+    </section>
+    <section id="projects">
+      <h2>My Projects</h2>
+      <ul>
+        <li>
+          <h3>Project 1</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore velit dolorem iste aliquam numquam magni consequatur harum odio veritatis ipsa officiis consectetur iusto atque doloremque neque totam, nobis cumque repellendus!</p>
+        </li>
+        <li>
+          <h3>Project 2</h3>
+          <p>ABSTRACT<br> 
+
+The Medical Store Management System is a comprehensive software solution designed to 
+streamline and automate the operations of medical stores or pharmacies. This system facilitates 
+efficient management of inventory, sales, and customer interactions, optimizing the overall 
+workflow within a medical retail environment. Key features include inventory tracking, real
+time stock management, sales and purchase order processing, and customer management. The 
+system enhances accuracy and reduces manual errors, ensuring timely restocking of medicines 
+and effective sales management. With an intuitive user interface, it offers an easy-to-use 
+platform for medical store personnel. The implementation of this system leads to improved 
+operational efficiency, better customer service, and effective decision-making. 
+Keywords: Medical Store, Inventory Management, Sales Processing, Pharmacy Software.</p>
+        <li>
+            <h3>Project 3</h3>
+            <p>This paper presents a Savvy Stock Framework for Expiry Date Follow-Up based on an 
+ESP32 microcontroller. The framework organizes different products in different sections of a 
+clever rack. One week prior to the product's expiration, the system notifies the owner of its 
+shelf location. These alerts are displayed on an LCD screen and sent as notifications. The 
+system also monitors inventory levels and issues low-stock alerts to ensure timely restocking. 
+To increase product safety, the shelves are equipped with a smoke and moisture sensor. If the 
+system detects unusual moisture levels or smoke, it instantly alerts the owner and sounds a 
+buzzer alarm to ensure prompt action.</p>  
     </ul>
-  </section>
-   <!DOCTYPE html>
-<html>
-<head>
-  <title>Contact Form</title>
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <h1>Arul Palace-Desort</h1>
-  <form id="contact-form">
-    <label for="name">Name:</label>
-    <input type="text" id="name" placeholder="Enter your name"><br>
-   <label for="name">DoB:</label>
-    <input type="text" id="name" placeholder="Date of Birth"><br>
-   <label for="email">Email:</label>
-    <input type="email" id="email" placeholder="Enter your email"><br>
-    <label for="message">Message:</label>
-    <textarea id="message" placeholder="Enter your message"></textarea><br>
-    <button id="submit-btn">Send</button>
-  </form>
+</section>
+
+    </section>
+    <section id="contact">
+      <h2>Arul Contact </h2>
+      <form>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="range">
+        <input type="datetime"placeholder="datetime">
+        <textarea placeholder="Message"></textarea>
+        <button>Send</button>
+      </form>
+    </section>
+  </main>
+  <footer>
+    <p>Arul Portfolio with Contact Form</p>
+  </footer>
 </body>
 </html>
-
-
